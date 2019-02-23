@@ -193,3 +193,12 @@ textarea{
 #con ul li{
     margin-bottom: 10px;
 } */
+
+#footer{
+    text-align: center !important;
+    color: white;
+    background-color: #05101A;
+    height: 15%;
+    padding-top: 3%;
+    /* border-top: 2px solid white; */
+}
