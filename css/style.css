@@ -1,0 +1,195 @@
+html {
+    height: 100%;
+    min-height: 100% !important;
+    margin: 0;
+}
+
+body{
+    font-family: "bahnschrift";
+    margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100% !important;
+    height: 100%;
+}
+
+button{
+    border-radius: 0 !important;
+    font-size: 14pt !important;
+}
+
+.bg-dark{
+    position: fixed !important;
+    width: 100%;
+    z-index: 100;
+    background-color: transparent !important;
+}
+
+.part{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    color: white;
+}
+
+.content{
+    margin-top: 10%;
+}
+
+section{
+    overflow-y: auto !important;
+}
+
+#home{
+    background-image: url('../img/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+#home h1{
+    text-align: center;
+    margin-top: 25%;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+#home p{
+    text-align: center;
+    font-size: 16pt;
+}
+
+#overlay-home{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#about{
+    background-image: url('../img/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+#about p{
+    font-size: 14pt;
+}
+
+#petra{
+    text-align: right;
+}
+
+#fontys{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+#overlay-about{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#skill{
+    background-image: url('../img/skill.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+#skill p{
+    font-size: 14pt;
+}
+
+.bar-border{
+    border-color: #ffc107;
+    border-style: solid;
+    border-width: 2px;
+    padding: 1%;
+}
+
+.bar{
+    background-color: #ffc107;
+    height: 15px;
+}
+
+#projects{
+    /* background-color: #343a40; */
+    background-image: url('../img/projects.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.card{
+    color: black;
+    border-radius: 10px !important;
+}
+
+.card-title{
+    margin-bottom: 0 !important;
+}
+
+.card-body{
+    padding-bottom: 0 !important;
+}
+
+.detail{
+    color: grey;
+}
+
+#all-projects{
+    margin: auto;
+    display: block;
+}
+
+#contact{
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+#overlay-contact{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+input{
+    border-radius: 0 !important;
+}
+
+textarea{
+    border-radius: 0 !important;
+}
+
+.con{
+    font-size: 14pt !important;
+}
+
+.con .col-md-1{
+    font-size: 16pt;
+}
+
+/* #con ul{
+    list-style-type: none;
+}
+
+#con ul li{
+    margin-bottom: 10px;
+} */
