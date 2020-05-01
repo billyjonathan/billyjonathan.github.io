@@ -33,9 +33,26 @@ function onScroll(event){
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('ul .active').removeClass('active');
             currLink.addClass("active");
+
+            if (currLink.children().attr("href") == "#skill"){
+                setProgressBars();
+            } else {
+                $('.bar').each(function(){
+                    $(this).css("width", "0%");
+                });
+            }
         }
-        else{
+        else {
             currLink.removeClass("active");
         }
+    });
+}
+
+function setProgressBars(){
+    var values = [60, 80, 80, 20, 30, 90, 60, 90, 80, 90, 50, 60, 80, 90];
+    var i = 0;
+    $('.bar').each(function(){
+        $(this).animate({width: values[i] + "%"}, 1000);
+        i = i + 1;
     });
 }
